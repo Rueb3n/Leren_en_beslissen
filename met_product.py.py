@@ -2,7 +2,7 @@ import json
 productList = []
 
 # open file
-with open('products.json') as json_data:
+with open('data/products.json') as json_data:
     
     # laad data
     data = json.load(json_data)
